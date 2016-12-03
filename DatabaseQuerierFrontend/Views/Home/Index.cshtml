@@ -1,0 +1,12 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.TextBox("FirstName")
+        <input type="submit" />
+    }
+</div>
